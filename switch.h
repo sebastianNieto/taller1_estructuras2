@@ -164,47 +164,47 @@ void numero_ascii(char numero)
 		}
 		case '1':
 		{
-			printf("El codigo ascii es : 49", numero);
+			printf("El codigo ascii es : 49");
 			break;
 		}
 		case '2':
 		{
-			printf("El codigo ascii es : 50", numero);
+			printf("El codigo ascii es : 50");
 			break;
 		}
 		case '3':
 		{
-			printf("El codigo ascii es : 51", numero);
+			printf("El codigo ascii es : 51");
 			break;
 		}
 		case '4':
 		{
-			printf("El codigo ascii es : 52", numero);
+			printf("El codigo ascii es : 52");
 			break;
 		}
 		case '5':
 		{
-			printf("El codigo ascii es : 53", numero);
+			printf("El codigo ascii es : 53");
 			break;
 		}
 		case '6':
 		{
-			printf("El codigo ascii es : 54", numero);
+			printf("El codigo ascii es : 54");
 			break;
 		}
 		case '7':
 		{
-			printf("El codigo ascii es : 55", numero);
+			printf("El codigo ascii es : 55");
 			break;
 		}
 		case '8':
 		{
-			printf("El codigo ascii es : 56", numero);
+			printf("El codigo ascii es : 56");
 			break;
 		}
 		case '9':
 		{
-			printf("El codigo ascii es : 57", numero);
+			printf("El codigo ascii es : 57");
 			break;
 		}
 		default:
