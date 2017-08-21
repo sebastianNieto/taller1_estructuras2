@@ -3,7 +3,6 @@
 *  Elaborado por: John Sebastian Nieto gil 
 *  Elaborado por: Ricardo Andres Villalobos
 */
-#include<ctype.h>
 void mes_sistema(unsigned short);
 void vocal_ascii(char);
 void numero_ascii(char);
@@ -92,31 +91,56 @@ void mes_sistema(unsigned short mes)
 //Muestra el codigo ascii de una vocal
 void vocal_ascii(char vocal)
 {
-	switch(tolower(vocal))
+	switch(vocal)
 	{
 		case 'a':
 		{
-			printf("El codigo acssi es : %d", vocal);
+			printf("El codigo acssi es : 97");
 			break;
 		}
 		case 'e':
 		{
-			printf("El codigo acssi es : %d", vocal);
+			printf("El codigo acssi es : 101");
 			break;
 		}
 		case 'i':
 		{
-			printf("El codigo acssi es : %d", vocal);
+			printf("El codigo acssi es : 105");
 			break;
 		}
 		case 'o':
 		{
-			printf("El codigo acssi es : %d", vocal);
+			printf("El codigo acssi es : 111");
 			break;
 		}
 		case 'u':
 		{
-			printf("El codigo acssi es : %d", vocal);
+			printf("El codigo acssi es : 117");
+			break;
+		}
+		case 'A':
+		{
+			printf("El codigo acssi es : 65");
+			break;
+		}
+		case 'E':
+		{
+			printf("El codigo acssi es : 69");
+			break;
+		}
+		case 'I':
+		{
+			printf("El codigo acssi es : 73");
+			break;
+		}
+		case 'O':
+		{
+			printf("El codigo acssi es : 79");
+			break;
+		}
+		case 'U':
+		{
+			printf("El codigo acssi es : 85");
 			break;
 		}
 		default:
@@ -135,52 +159,52 @@ void numero_ascii(char numero)
 		{
 		case '0':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 48");
 			break;
 		}
 		case '1':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 49", numero);
 			break;
 		}
 		case '2':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 50", numero);
 			break;
 		}
 		case '3':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 51", numero);
 			break;
 		}
 		case '4':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 52", numero);
 			break;
 		}
 		case '5':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 53", numero);
 			break;
 		}
 		case '6':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 54", numero);
 			break;
 		}
 		case '7':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 55", numero);
 			break;
 		}
 		case '8':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 56", numero);
 			break;
 		}
 		case '9':
 		{
-			printf("El codigo ascii es : %d", numero);
+			printf("El codigo ascii es : 57", numero);
 			break;
 		}
 		default:

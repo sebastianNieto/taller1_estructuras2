@@ -13,7 +13,7 @@ version_required=20130729
 custom_tabs=0
 tab_use_spaces=0
 explorer_path=
-current_source=menu.h
+current_source=switch.h
 path_char=\
 [source]
 path=main.cpp
@@ -37,7 +37,7 @@ cursor=33:0
 open=true
 [header]
 path=switch.h
-cursor=131:30
+cursor=206:34
 open=true
 [header]
 path=matrices.h
